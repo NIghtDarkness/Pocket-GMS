@@ -1,6 +1,10 @@
 {
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"SprSystem","path":"sprites/SprSystem/SprSystem.yy",},"order":0,},
+    {"id":{"name":"SprPlayer","path":"sprites/SprPlayer/SprPlayer.yy",},"order":0,},
+    {"id":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"order":0,},
+    {"id":{"name":"ObjSystem","path":"objects/ObjSystem/ObjSystem.yy",},"order":0,},
+    {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -14,7 +18,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -31,6 +35,13 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Player.yy","order":1,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/tools.yy","order":1,"resourceVersion":"1.0","name":"tools","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/entities.yy","order":2,"resourceVersion":"1.0","name":"entities","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/tools.yy","order":2,"resourceVersion":"1.0","name":"tools","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/testRooms.yy","order":1,"resourceVersion":"1.0","name":"testRooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/Levels.yy","order":2,"resourceVersion":"1.0","name":"Levels","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms/Tools.yy","order":3,"resourceVersion":"1.0","name":"Tools","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
