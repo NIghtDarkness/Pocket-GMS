@@ -1,25 +1,41 @@
-if(keyboard_check_pressed(ord("W"))){
-	vspeed--;
-}else if(keyboard_check_released(ord("W"))){
-	vspeed = 0;
+function print(message){
+	show_debug_message(message);
 }
 
-if(keyboard_check_pressed(ord("S"))){
-	vspeed++;
-}else if(keyboard_check_released(ord("S"))){
-	vspeed = 0;
+// Movimiento
+if(keyboard_check(ord("D"))){
+	hspeed = SPEED * 1;
+}else{
+	hspeed = 0
+	
+}
+
+if(keyboard_check(ord("W"))){
+	vspeed = SPEED * -1;
+}else{
+	vspeed = 0
+	
+}
+
+if(keyboard_check(ord("A"))){
+	hspeed = SPEED * -1;
+}else{
+	hspeed = 0
+	
+}
+
+if(keyboard_check(ord("S"))){
+	vspeed = SPEED * 1;
+}else{
+	vspeed = 0
+	
 }
 
 
+print("vx")
+print(hspeed)
+print("vy")
+print(vspeed)
 
-if(keyboard_check_pressed(ord("A"))){
-	hspeed--;
-}else if(keyboard_check_released(ord("A"))){
-	hspeed = 0;
-}
 
-if(keyboard_check_pressed(ord("D"))){
-	hspeed++;
-}else if(keyboard_check_released(ord("D"))){
-	hspeed = 0;
-}
+
