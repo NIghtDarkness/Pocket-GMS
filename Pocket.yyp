@@ -1,6 +1,8 @@
 {
   "resources": [
     {"id":{"name":"SprSystem","path":"sprites/SprSystem/SprSystem.yy",},"order":0,},
+    {"id":{"name":"SprTilesTest","path":"sprites/SprTilesTest/SprTilesTest.yy",},"order":0,},
+    {"id":{"name":"SetTest0","path":"tilesets/SetTest0/SetTest0.yy",},"order":0,},
     {"id":{"name":"SprPlayer","path":"sprites/SprPlayer/SprPlayer.yy",},"order":0,},
     {"id":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"order":0,},
     {"id":{"name":"ObjSystem","path":"objects/ObjSystem/ObjSystem.yy",},"order":0,},
@@ -42,6 +44,8 @@
     {"folderPath":"folders/Rooms/testRooms.yy","order":1,"resourceVersion":"1.0","name":"testRooms","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/Levels.yy","order":2,"resourceVersion":"1.0","name":"Levels","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Rooms/Tools.yy","order":3,"resourceVersion":"1.0","name":"Tools","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Tilesets.yy","order":3,"resourceVersion":"1.0","name":"Tilesets","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Tile Sets/Test.yy","order":1,"resourceVersion":"1.0","name":"Test","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
